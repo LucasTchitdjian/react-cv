@@ -10,7 +10,7 @@ const ProgressBar = (props) => {
         <span>2 ans</span>
       </div>
 
-      <div>
+      <div className='flexLine'>
         {
           props.languages.map((item) => {
             let xpYears = 2;
